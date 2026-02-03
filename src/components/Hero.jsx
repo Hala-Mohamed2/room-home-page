@@ -43,7 +43,7 @@ export default function Hero() {
 
 
 return (
-    <div className="relative flex flex-col h-[75vh] md:flex-row ">
+    <div className="relative flex flex-col md:h-[75vh] md:flex-row ">
 
         <div className="relative w-full md:w-[60%] bg-cover bg-center h-[75vh]  flex items-start pt-14 px-12 gap-12" style={{backgroundImage: `url(${current.img})`}}>
             <div className="flex items-center gap-14 w-full">
@@ -64,7 +64,7 @@ return (
 
         <div className="w-full md:w-[40%] h-[75vh] bg-white ">
             <div className="flex  justify-center flex-col pb-9 pt-12 md:pb-0  px-18">
-                <h1 className="text-[40px] font-bold">{current.title}</h1>
+                <h1 className="text-[28px] md:text-[40px] font-bold">{current.title}</h1>
                 <p className="text-gray-500 text-[15px] font-medium py-4">{current.desc}</p>
                 <span className="flex items-center gap-8 font-medium text-sm tracking-[10px]">SHOP NOW <img src="./images/icon-arrow.svg" alt="" /></span>
             </div>
